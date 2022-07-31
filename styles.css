@@ -1,0 +1,60 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: white; /*radial-gradient(circle at center, #fff, #ccc);*/
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 25, 28);
+}
+
+.title{
+    padding-top: 20%;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.name, .subtitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-size: xx-large;
+}
+
+.subtitle{
+    font-size: medium;
+}
+
+.dna-wrapper{
+    width: 50%;
+    filter: blur(0px);
+}
+
+.wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
